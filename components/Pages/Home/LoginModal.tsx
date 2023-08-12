@@ -37,16 +37,18 @@ const LoginModal = (props: Props) => {
           <form>
             <FormControl sx={{ mb: 2 }} fullWidth>
               <TextField
+                sx={{ backgroundColor: 'common.white' }}
                 id='email'
                 name='email'
                 type='email'
-                label='Email atau nomor telepon'
+                label='Email'
                 variant='filled'
               />
-              <FormHelperText>Please enter a valid email.</FormHelperText>
+              <FormHelperText sx={{ color: grey[700] }}>Please enter a valid email.</FormHelperText>
             </FormControl>
             <FormControl sx={{ mb: 4 }} fullWidth>
               <TextField
+                sx={{ backgroundColor: 'common.white' }}
                 id='password'
                 name='password'
                 type={showPassword ? 'text' : 'password'}
@@ -62,7 +64,7 @@ const LoginModal = (props: Props) => {
                 }}
                 variant='filled'
               />
-              <FormHelperText>Your password must contain between 4 and 60 characters.</FormHelperText>
+              <FormHelperText sx={{ color: grey[700] }}>Your password must contain between 4 and 60 characters.</FormHelperText>
             </FormControl>
             <Button type='submit' variant='contained' fullWidth size='large'>Sign in</Button>
           </form>
