@@ -125,7 +125,7 @@ const FAQ = (props: Props) => {
               </CustomAccordionSummary>
               <AccordionDetails>
                 {item.description.map((item2, index2) => (
-                  <Typography variant='h5' sx={{ mb: (item.description.length - 1) === index2 ? 0 : 4 }}>
+                  <Typography key={index2} variant='h5' sx={{ mb: (item.description.length - 1) === index2 ? 0 : 4 }}>
                     {item2.text}
                   </Typography>
                 ))}
