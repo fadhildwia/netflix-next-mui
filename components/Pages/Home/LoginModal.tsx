@@ -100,7 +100,7 @@ const LoginModal = (props: Props) => {
         </Grid>
         <Grid>
           <Typography variant="caption" color={grey[700]}>
-            This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            This page is protected by Google reCAPTCHA to ensure you{'`'}re not a bot.
           </Typography>
           <Typography variant="caption" component='a' href='#' color={grey[700]}>
             &nbsp;Learn more.

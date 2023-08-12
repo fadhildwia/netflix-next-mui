@@ -67,7 +67,7 @@ const FAQ = (props: Props) => {
                 Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
               </Typography>
               <Typography variant='h5'>
-                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There{'`'}s always something new to discover and new TV shows and movies are added every week!
               </Typography>
             </AccordionDetails>
           </CustomAccordion>
@@ -84,7 +84,7 @@ const FAQ = (props: Props) => {
                 Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
               </Typography>
               <Typography variant='h5'>
-                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There{'`'}s always something new to discover and new TV shows and movies are added every week!
               </Typography>
             </AccordionDetails>
           </CustomAccordion>
